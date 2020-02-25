@@ -61,7 +61,7 @@ nav div ul li:nth-child(3) {
  
 }
 
-form {
+.searchBar > form {
     display: flex;
     flex: 1;
 }
@@ -216,14 +216,3 @@ form {
 }
 
 
-/* 
-sup {   
-        display: none;
-        text-align: center;
-        height: 15px;
-        width: 15px;
-        background-color: rgb(163, 7, 7);
-        border-radius: 50%;
-        display: inline-block;
-      
-} */

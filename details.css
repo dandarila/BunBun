@@ -52,7 +52,81 @@ nav div ul li:nth-child(3) {
     height: 80%;
 }
 
-.details img {
-    width: 200px;
+
+.cardDetails {
+    margin: 0 auto;
+    border: 2px solid black;
+    max-width: 960px;
+    height: 400px;
+    display: flex;
+    
+}
+.cardDetails img {
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 300px;
     height: 200px;
 }
+.textDescription {
+    color: #9F9F9F;
+    width: 350px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.textDescription >h4 {
+    color: #707070
+}
+.addToCart > button {
+    background-color: #EC7A23;
+    color: #FFFFFF;
+    width: 150px;
+    border: none;
+  
+}
+
+.addToCart> button > svg {
+    width: 15px;
+    height: 15px;
+}
+.addToCart > h5 >span {
+    color: #EC7A23;
+
+}
+.addToCart {
+    margin-left: 200px;
+    
+}
+
+.form {
+    width: 300px;
+    margin-left: 500px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  #comment {
+      height:200px
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
