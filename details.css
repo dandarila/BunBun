@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #CBD8C1;
+}
+
+/******************NAVBAR *****************/
+nav {
+    background-color: #434A3E;
+    color: #FFFFFF;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.navBarDisplay {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+}
+.pacifico {
+   font-family: 'Pacifico' ;
+}
+
+nav div ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+nav div ul li {
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+    list-style: none;  
+}
+
+nav div ul li:nth-child(3) {
+    margin-left: auto;
+    text-align: right;
+}
+
+
+.details {
+    max-width: 960px;
+    height: 80%;
+}
+
+.details img {
+    width: 200px;
+    height: 200px;
+}
