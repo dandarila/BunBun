@@ -9,16 +9,19 @@ nav {
     background-color: #434A3E;
     color: #FFFFFF;
 }
+
 .container {
     max-width: 960px;
     margin: 0 auto;
 }
+
 .navBarDisplay {
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
     align-items: center;
 }
+
 .pacifico {
    font-family: 'Pacifico' ;
 }
@@ -46,30 +49,27 @@ nav div ul li:nth-child(3) {
     text-align: right;
 }
 
-
 .details {
     max-width: 960px;
     height: 80%;
 }
 
-
 .cardDetails {
     margin: 0 auto;
-    border: 2px solid black;
     max-width: 960px;
-    height: 400px;
+    height: 300px;
     display: flex;
-    
 }
+
 .cardDetails img {
     margin-left: 20px;
     margin-top: 50px;
     width: 300px;
     height: 200px;
 }
+
 .textDescription {
     color: #9F9F9F;
-    width: 350px;
     height: 200px;
     margin-left: 100px;
     margin-top: 30px;
@@ -78,30 +78,73 @@ nav div ul li:nth-child(3) {
 .textDescription >h4 {
     color: #707070
 }
+
+.textDescription h5 {
+    margin-bottom: 5px;
+}
+
+.addToCart {
+    margin-left: 400px;
+    
+}
 .addToCart > button {
     background-color: #EC7A23;
     color: #FFFFFF;
-    width: 150px;
+    width: 120px;
     border: none;
-  
 }
 
 .addToCart> button > svg {
+    margin-top: 3px;
     width: 15px;
     height: 15px;
 }
+
 .addToCart > h5 >span {
     color: #EC7A23;
-
-}
-.addToCart {
-    margin-left: 200px;
-    
 }
 
-.form {
+.comments {
+    max-width: 960px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.comment {
+    display:flex;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.comment div {
+    margin-left: 15px;
+}
+
+.comment p:last-child {
+   color: #9F9F9F;
+   margin-top: 0px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.name {
+    color: #707070;
+    margin-left: 0px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+.commentForm {
+    color: #707070;
     width: 300px;
-    margin-left: 500px;
+}
+
+.form .commentForm {
+    margin: 0 auto;
 }
 
 input[type=text], select, textarea {
@@ -111,22 +154,19 @@ input[type=text], select, textarea {
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    resize: vertical;
-  }
+    resize: none;
+}
   
-  #comment {
-      height:200px
-  }
+#name {
+    height: 20px;
+}
+
+#email {
+    height: 20px;
+}
+
+#comment {
+    height:100px;
+}
   
-  input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
+ 
