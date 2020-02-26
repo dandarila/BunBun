@@ -21,6 +21,10 @@ main > h1 {
     font-size: 20px;
     margin: 0 auto;
     }
+#seeTheGoods a {
+    text-decoration: none;
+    color: #ffffff;
+}
 #seeTheGoods >p {
     padding-top: 0.5em;
 }
